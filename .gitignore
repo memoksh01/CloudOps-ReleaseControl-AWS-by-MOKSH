@@ -1,0 +1,13 @@
+# Terraform local cache
+.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Provider lock
+.terraform.lock.hcl
+
+# OS files
+.DS_Store
+Thumbs.db
